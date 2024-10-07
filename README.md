@@ -47,9 +47,9 @@ project-root/
 
 ## Usage
 1. **Clone the repository** to your local machine:
-   
+   ```
    git clone https://github.com/rjblacky/portfolio
-   
+   ```
 2. **Open `index.html`** in your web browser to view the portfolio.
 
 3. **Interact with the site** by exploring different sections, viewing projects, and using the contact form.
