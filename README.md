@@ -1,4 +1,3 @@
-Here’s a README file tailored for your portfolio website, excluding the license and contribution sections:
 
 ---
 
