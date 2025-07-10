@@ -190,7 +190,7 @@ document.querySelector('.contact-form').addEventListener('submit', function(even
 //scroll to reveal//
 
 ScrollReveal({ 
-    reset: true, 
+    reset: false, 
     distance: '60px',
     duration:2500,
     delay:100
