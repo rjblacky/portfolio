@@ -492,7 +492,7 @@ header.sticky .nav-bar{
 
 .skills-info{
     max-width: 100%;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 100px;
     margin: 0 auto;
@@ -581,82 +581,20 @@ header.sticky .nav-bar{
     border-radius: 2px;
 }
 
-.bar .html::before{
+.bar .UIUXDesign::before{
     width: 80%;
 }
-.bar .css::before{
-    width: 70%;
-}
-.bar .bootstrap::before{
+.bar .WireframingPrototyping::before{
     width: 75%;
 }
-.bar .javaprogramming::before{
+.bar .WebDevelopment::before{
+    width: 75%;
+}
+.bar .Photoshop::before{
     width: 70%;
 }
 .bar .digitalmarketingwithseo::before{
     width: 70%;
-}
-
-/*--=======================Intrnship==========*/
-.internship-card {
-    position: relative;
-    background-image: url('../img/int.avif'); /* Add image URL or path */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 3px solid var(--second-color);
-    padding: 35px;
-    border-radius: 6px;
-    box-shadow: var(--box-shadow);
-    transition: .3s ease;
-    overflow: hidden;
-}
-
-.internship-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--bg-transparent-color-02); /* Semi-transparent overlay */
-    backdrop-filter: blur(1px); /* Blur effect */
-    border-radius: inherit; /* Matches the card's border-radius */
-    z-index: 1; /* Places the overlay above the background image */
-}
-
-.internship-card * {
-    position: relative;
-    z-index: 2; /* Ensures content stays above the blur effect */
-    text-shadow: 1px 1px 3px var(--shadow-color) 
-}
-
-.internship-card .upper {
-    line-height: 30px;
-}
-
-.internship-card h3 {
-    font-size: 1.3em;
-    font-weight: 700;
-    text-shadow: 2px 2px 4px var(--shadow-color); /* Add text shadow */
-}
-
-
-.internship-card h5 {
-
-    font-size: var(--small-font-size);
-    font-weight: 500;
-    font-style: italic;
-    text-shadow: 1px 1px 3px var(--shadow-color); /* Add text shadow */
-}
-
-.internship-card .highlight-text {
-    color: var(--third-color); /* Changed .span to .highlight-text */
-}
-
-
-.edu-list .item:hover, .bar:hover, .internship-card:hover{
-    transform: scale(1.03);
 }
 
 
